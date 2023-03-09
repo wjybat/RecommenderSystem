@@ -39,7 +39,7 @@ fasterCofiltering.py： 基于用户的协同过滤算法的具体实现代码�
 结果使用的是整合SVD模型+线性回归模型的推荐系统的结果。
 结果保存在res-test-combine-final.txt中，使用了itemAttribute.txt来提高预测性能。
 结果的格式如下：
-`
+```
 <user id>|<numbers of rating items>
 <item id>   <score>
-`
+```
